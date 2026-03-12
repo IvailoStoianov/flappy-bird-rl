@@ -11,6 +11,7 @@ class Bird:
         self.color: Tuple[int, int, int] = (255, 255, 0)  # yellow
 
         self.velocity: float = 0.0
+        self.max_velocity: float = 10.0
         self.gravity: float = 0.5
         self.flap_strength: float = -10.0
 
